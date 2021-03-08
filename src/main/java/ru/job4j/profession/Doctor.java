@@ -4,11 +4,13 @@ public class Doctor extends Profession {
     private String diagnos;
     private String tool;
 
-    public Doctor(String diagnos, String tool) {
+    public Doctor(String name, String surname, String education, String birthday, String diagnos, String tool) {
+        super(name,surname,education,birthday);
         this.diagnos = diagnos;
         this.tool = tool;
     }
-    public Doctor(){
+
+    public Doctor() {
 
     }
 

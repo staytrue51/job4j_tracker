@@ -1,13 +1,11 @@
 package ru.job4j.profession;
 
 public class Programmer extends Engineer {
-    public Programmer() {
-
+    public Programmer(String name, String surname, String education, String birthday, String time, String tool) {
+        super(name, surname, education, birthday, time, tool);
     }
 
     public Code coder(Task task) {
-        Programmer programmer = new Programmer();
-        programmer.getName();
         return null;
     }
 }
